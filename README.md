@@ -11,10 +11,9 @@ in respect to memory usage,timing requirements etc. and could be written in much
 2.Please change the library according to your requirements. For that, change  the DDRC and PORTS I/O registers in
 "define statements".
 
+3.I am not using BusyFlag as mentioned in many books. Therefore i have  longer delay statements to be on safe side.
 
-3. I am not using BusyFlag as mentioned in many books. Therefore i have  longer delay statements to be on safe side.
-
-4. There is also (8Bit Mode) working library with busy flag available on my github account. 
+4.There is also (8Bit Mode) working library with busy flag available on my github account. 
 Most of functions in 8Bit mode have same name in 4Bit mode.
 
 
